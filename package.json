@@ -1,0 +1,13 @@
+{
+  "name": "walletflow",
+  "version": "1.0.0",
+  "description": "WalletFlow — React + Node.js + MongoDB",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run build && npm run preview"
+  },
+  "private": true
+}
